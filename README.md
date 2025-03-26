@@ -24,7 +24,7 @@ Our study systematically investigates how varying levels of label noise (0–40%
 
 
 MIMIC-IV (Sepsis Prediction)
-	•	Citation (PhysioNet version):
+
  @article{johnson2023mimic,
   title={MIMIC-IV, a freely accessible electronic health record dataset},
   author={Johnson, Alistair EW and Bulgarelli, Lucas and Shen, Lu and Gayles, Alvin and Shammout, Ayad and Horng, Steven and Pollard, Tom J and Hao, Sicheng and Moody, Benjamin and Gow, Brian and others},
@@ -38,7 +38,7 @@ MIMIC-IV (Sepsis Prediction)
 
 
 GSE2034 (Breast Cancer Prognosis)
-	•	Citation:
+
 @article{wang2005gene,
   title={Gene-expression profiles to predict distant metastasis of lymph-node-negative primary breast cancer},
   author={Wang, Yixin and Klijn, Jan GM and Zhang, Yi and Sieuwerts, Anieta M and Look, Maxime P and Yang, Fei and Talantov, Dmitri and Timmermans, Mieke and Meijer-van Gelder, Marion E and Yu, Jack and others},
