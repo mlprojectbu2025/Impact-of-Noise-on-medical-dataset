@@ -1,0 +1,271 @@
+Dataset,Model,Noise,TN,FP,FN,TP,Accuracy,TPR,TNR,PPV,F1 Score
+sepsis balanced,Logistic Regression (LR),0%,293999,121541,15138,41612,0.711,0.733,0.708,0.255,0.378
+sepsis balanced,Logistic Regression (LR),5%,276228,139312,12661,44089,0.678,0.777,0.665,0.240,0.367
+sepsis balanced,Logistic Regression (LR),10%,264774,150766,11382,45368,0.657,0.799,0.637,0.231,0.359
+sepsis balanced,Logistic Regression (LR),15%,255915,159625,10692,46058,0.639,0.812,0.616,0.224,0.351
+sepsis balanced,Logistic Regression (LR),20%,250847,164693,10376,46374,0.629,0.817,0.604,0.220,0.346
+sepsis balanced,Logistic Regression (LR),25%,246530,169010,10166,46584,0.621,0.821,0.593,0.216,0.343
+sepsis balanced,Logistic Regression (LR),30%,243598,171942,10504,46246,0.614,0.815,0.586,0.212,0.336
+sepsis balanced,Logistic Regression (LR),35%,239724,175816,11108,45642,0.604,0.804,0.577,0.206,0.328
+sepsis balanced,Logistic Regression (LR),40%,233946,181594,12245,44505,0.590,0.784,0.563,0.197,0.315
+sepsis balanced,Decision Tree (DT),0%,277377,138163,19327,37423,0.667,0.659,0.668,0.213,0.322
+sepsis balanced,Decision Tree (DT),5%,244825,170715,19449,37301,0.597,0.657,0.589,0.180,0.283
+sepsis balanced,Decision Tree (DT),10%,230605,184935,20288,36462,0.565,0.643,0.555,0.165,0.262
+sepsis balanced,Decision Tree (DT),15%,222570,192970,21233,35517,0.546,0.626,0.536,0.155,0.249
+sepsis balanced,Decision Tree (DT),20%,217731,197809,22054,34696,0.534,0.611,0.524,0.149,0.240
+sepsis balanced,Decision Tree (DT),25%,214560,200980,23156,33594,0.525,0.592,0.516,0.143,0.231
+sepsis balanced,Decision Tree (DT),30%,212951,202589,24070,32680,0.520,0.576,0.512,0.139,0.224
+sepsis balanced,Decision Tree (DT),35%,211739,203801,25147,31603,0.515,0.557,0.510,0.134,0.216
+sepsis balanced,Decision Tree (DT),40%,210164,205376,26175,30575,0.510,0.539,0.506,0.130,0.209
+sepsis balanced,Random Forest (RF),0%,308879,106661,12240,44510,0.748,0.784,0.743,0.295,0.428
+sepsis balanced,Random Forest (RF),5%,296787,118753,11278,45472,0.725,0.801,0.714,0.277,0.411
+sepsis balanced,Random Forest (RF),10%,288111,127429,11266,45484,0.706,0.801,0.693,0.263,0.396
+sepsis balanced,Random Forest (RF),15%,278642,136898,11432,45318,0.686,0.799,0.671,0.249,0.379
+sepsis balanced,Random Forest (RF),20%,270047,145493,12231,44519,0.666,0.784,0.650,0.236,0.362
+sepsis balanced,Random Forest (RF),25%,258608,156932,13017,43733,0.640,0.771,0.622,0.218,0.340
+sepsis balanced,Random Forest (RF),30%,250561,164979,14584,42166,0.620,0.743,0.603,0.204,0.320
+sepsis balanced,Random Forest (RF),35%,243678,171862,16545,40205,0.601,0.708,0.586,0.190,0.299
+sepsis balanced,Random Forest (RF),40%,235349,180191,19706,37044,0.577,0.653,0.566,0.171,0.271
+sepsis balanced,Naive Bayes (NB),0%,300370,115170,29522,27228,0.694,0.480,0.723,0.191,0.273
+sepsis balanced,Naive Bayes (NB),5%,346365,69175,36809,19941,0.776,0.351,0.834,0.224,0.273
+sepsis balanced,Naive Bayes (NB),10%,345649,69891,36224,20526,0.775,0.362,0.832,0.227,0.279
+sepsis balanced,Naive Bayes (NB),15%,243520,172020,24620,32130,0.584,0.566,0.586,0.157,0.246
+sepsis balanced,Naive Bayes (NB),20%,207452,208088,23581,33169,0.509,0.584,0.499,0.138,0.223
+sepsis balanced,Naive Bayes (NB),25%,338830,76710,40528,16222,0.752,0.286,0.815,0.175,0.217
+sepsis balanced,Naive Bayes (NB),30%,262555,152985,29857,26893,0.613,0.474,0.632,0.149,0.227
+sepsis balanced,Naive Bayes (NB),35%,309473,106067,38242,18508,0.694,0.326,0.745,0.149,0.205
+sepsis balanced,Naive Bayes (NB),40%,153727,261813,18784,37966,0.406,0.669,0.370,0.127,0.213
+sepsis balanced,K-Nearest Neighbors (KNN),0%,295989,119551,19070,37680,0.706,0.664,0.712,0.240,0.352
+sepsis balanced,K-Nearest Neighbors (KNN),5%,273830,141710,19737,37013,0.658,0.652,0.659,0.207,0.315
+sepsis balanced,K-Nearest Neighbors (KNN),10%,254773,160767,20278,36472,0.617,0.643,0.613,0.185,0.287
+sepsis balanced,K-Nearest Neighbors (KNN),15%,242352,173188,21180,35570,0.588,0.627,0.583,0.171,0.268
+sepsis balanced,K-Nearest Neighbors (KNN),20%,233175,182365,21949,34801,0.567,0.613,0.561,0.160,0.254
+sepsis balanced,K-Nearest Neighbors (KNN),25%,226780,188760,22939,33811,0.552,0.596,0.546,0.152,0.242
+sepsis balanced,K-Nearest Neighbors (KNN),30%,221118,194422,23879,32871,0.538,0.579,0.532,0.145,0.231
+sepsis balanced,K-Nearest Neighbors (KNN),35%,218052,197488,25096,31654,0.529,0.558,0.525,0.138,0.222
+sepsis balanced,K-Nearest Neighbors (KNN),40%,214159,201381,26119,30631,0.518,0.540,0.515,0.133,0.213
+sepsis balanced,Support Vector Machine (SVM),0%,292716,122824,12439,44311,0.714,0.781,0.704,0.265,0.395
+sepsis balanced,Support Vector Machine (SVM),5%,292073,123467,12740,44010,0.712,0.776,0.703,0.263,0.392
+sepsis balanced,Support Vector Machine (SVM),10%,293119,122421,13271,43479,0.713,0.766,0.705,0.262,0.391
+sepsis balanced,Support Vector Machine (SVM),15%,290478,125062,13486,43264,0.707,0.762,0.699,0.257,0.384
+sepsis balanced,Support Vector Machine (SVM),20%,287648,127892,13612,43138,0.700,0.760,0.692,0.254,0.381
+sepsis balanced,Support Vector Machine (SVM),25%,282822,132718,13985,42765,0.689,0.754,0.681,0.244,0.368
+sepsis balanced,Support Vector Machine (SVM),30%,279817,135723,14899,41851,0.681,0.737,0.673,0.236,0.357
+sepsis balanced,Support Vector Machine (SVM),35%,271872,143668,15630,41120,0.663,0.725,0.654,0.223,0.341
+sepsis balanced,Support Vector Machine (SVM),40%,259677,155863,17651,39099,0.633,0.689,0.625,0.201,0.311
+genomics balanced,Logistic Regression (LR),0%,1018,69,264,79,76.71%,23.03%,93.65%,0.534,0.321
+genomics balanced,Logistic Regression (LR),5%,999,88,261,82,75.59%,23.91%,91.90%,0.482,0.319
+genomics balanced,Logistic Regression (LR),10%,978,109,256,87,74.48%,25.36%,89.97%,0.445,0.323
+genomics balanced,Logistic Regression (LR),15%,941,146,249,94,72.38%,27.41%,86.57%,0.392,0.322
+genomics balanced,Logistic Regression (LR),20%,893,194,231,112,70.28%,32.65%,82.15%,0.366,0.345
+genomics balanced,Logistic Regression (LR),25%,857,230,227,116,68.04%,33.82%,78.84%,0.335,0.336
+genomics balanced,Logistic Regression (LR),30%,803,284,211,132,65.38%,38.48%,73.87%,0.317,0.348
+genomics balanced,Logistic Regression (LR),35%,721,366,188,155,61.26%,45.19%,66.33%,0.298,0.358
+genomics balanced,Logistic Regression (LR),40%,650,437,189,154,56.22%,44.90%,59.80%,0.261,0.329
+genomics balanced,Decision Tree (DT),0%,832,255,246,97,64.97%,28.28%,76.54%,0.275,0.279
+genomics balanced,Decision Tree (DT),5%,775,312,233,110,61.89%,32.07%,71.30%,0.261,0.287
+genomics balanced,Decision Tree (DT),10%,774,313,226,117,62.31%,34.11%,71.21%,0.272,0.302
+genomics balanced,Decision Tree (DT),15%,767,320,232,111,61.40%,32.36%,70.56%,0.258,0.286
+genomics balanced,Decision Tree (DT),20%,680,407,200,143,57.55%,41.69%,62.56%,0.260,0.320
+genomics balanced,Decision Tree (DT),25%,686,401,200,143,57.97%,41.69%,63.11%,0.263,0.322
+genomics balanced,Decision Tree (DT),30%,620,467,199,144,53.43%,41.98%,57.04%,0.236,0.302
+genomics balanced,Decision Tree (DT),35%,588,499,191,152,51.75%,44.31%,54.09%,0.233,0.305
+genomics balanced,Decision Tree (DT),40%,583,504,187,156,51.68%,45.48%,53.63%,0.236,0.310
+genomics balanced,Random Forest (RF),0%,1053,34,307,36,76.15%,10.50%,96.87%,0.514,0.174
+genomics balanced,Random Forest (RF),5%,1054,33,307,36,76.22%,10.50%,96.96%,0.522,0.175
+genomics balanced,Random Forest (RF),10%,1039,48,304,39,75.38%,11.37%,95.58%,0.448,0.181
+genomics balanced,Random Forest (RF),15%,1002,85,289,54,73.85%,15.74%,92.18%,0.389,0.224
+genomics balanced,Random Forest (RF),20%,974,113,290,53,71.82%,15.45%,89.60%,0.319,0.208
+genomics balanced,Random Forest (RF),25%,916,171,273,70,68.95%,20.41%,84.27%,0.290,0.240
+genomics balanced,Random Forest (RF),30%,860,227,261,82,65.87%,23.91%,79.12%,0.265,0.251
+genomics balanced,Random Forest (RF),35%,759,328,217,126,61.89%,36.73%,69.83%,0.278,0.316
+genomics balanced,Random Forest (RF),40%,699,388,220,123,57.48%,35.86%,64.31%,0.241,0.288
+genomics balanced,Naive Bayes (NB),0%,925,162,229,114,72.66%,33.24%,85.10%,0.413,0.368
+genomics balanced,Naive Bayes (NB),5%,931,156,242,101,72.17%,29.45%,85.65%,0.392,0.336
+genomics balanced,Naive Bayes (NB),10%,910,177,228,115,71.68%,33.53%,83.72%,0.394,0.362
+genomics balanced,Naive Bayes (NB),15%,870,217,226,117,69.02%,34.11%,80.04%,0.350,0.345
+genomics balanced,Naive Bayes (NB),20%,854,233,227,116,67.83%,33.82%,78.56%,0.332,0.335
+genomics balanced,Naive Bayes (NB),25%,796,291,211,132,64.90%,38.48%,73.23%,0.312,0.344
+genomics balanced,Naive Bayes (NB),30%,771,316,209,134,63.29%,39.07%,70.93%,0.298,0.338
+genomics balanced,Naive Bayes (NB),35%,714,373,193,150,60.42%,43.73%,65.69%,0.287,0.346
+genomics balanced,Naive Bayes (NB),40%,647,440,190,153,55.94%,44.61%,59.52%,0.258,0.327
+genomics balanced,K-Nearest Neighbors (KNN),0%,827,260,239,104,65.10%,30.32%,76.08%,0.286,0.294
+genomics balanced,K-Nearest Neighbors (KNN),5%,811,276,234,109,64.34%,31.78%,74.61%,0.283,0.300
+genomics balanced,K-Nearest Neighbors (KNN),10%,763,324,204,139,63.08%,40.52%,70.19%,0.300,0.345
+genomics balanced,K-Nearest Neighbors (KNN),15%,717,370,199,144,60.21%,41.98%,65.96%,0.281,0.336
+genomics balanced,K-Nearest Neighbors (KNN),20%,705,382,207,136,58.81%,39.65%,64.86%,0.263,0.316
+genomics balanced,K-Nearest Neighbors (KNN),25%,648,439,192,151,55.87%,44.02%,59.61%,0.256,0.323
+genomics balanced,K-Nearest Neighbors (KNN),30%,622,465,182,161,54.76%,46.94%,57.22%,0.257,0.332
+genomics balanced,K-Nearest Neighbors (KNN),35%,640,447,196,147,55.03%,42.86%,58.88%,0.248,0.313
+genomics balanced,K-Nearest Neighbors (KNN),40%,630,457,198,145,54.20%,42.27%,57.96%,0.241,0.306
+genomics balanced,Support Vector Machine (SVM),0%,703,384,127,216,64.27%,62.97%,64.67%,0.360,0.457
+genomics balanced,Support Vector Machine (SVM),5%,760,327,158,185,66.08%,53.94%,69.92%,0.361,0.432
+genomics balanced,Support Vector Machine (SVM),10%,695,392,149,194,62.17%,56.56%,63.94%,0.331,0.417
+genomics balanced,Support Vector Machine (SVM),15%,727,360,157,186,63.85%,54.23%,66.88%,0.341,0.418
+genomics balanced,Support Vector Machine (SVM),20%,712,375,156,187,62.87%,54.52%,65.50%,0.332,0.412
+genomics balanced,Support Vector Machine (SVM),25%,632,455,134,209,58.81%,60.93%,58.14%,0.314,0.414
+genomics balanced,Support Vector Machine (SVM),30%,697,390,176,167,60.42%,48.69%,64.12%,0.300,0.372
+genomics balanced,Support Vector Machine (SVM),35%,645,442,182,161,56.36%,46.94%,59.34%,0.267,0.341
+genomics balanced,Support Vector Machine (SVM),40%,621,466,187,156,54.34%,45.48%,57.13%,0.251,0.323
+stroke,Logistic Regression (LR),0%,17937,6363,256,994,74.09%,79.52%,73.81%,0.135,0.231
+stroke,Logistic Regression (LR),5%,16180,8120,182,1068,67.51%,85.44%,66.58%,0.116,0.205
+stroke,Logistic Regression (LR),10%,15402,8898,164,1086,64.53%,86.88%,63.38%,0.109,0.193
+stroke,Logistic Regression (LR),15%,14680,9620,189,1061,61.61%,84.88%,60.41%,0.099,0.178
+stroke,Logistic Regression (LR),20%,14237,10063,189,1061,59.87%,84.88%,58.59%,0.095,0.171
+stroke,Logistic Regression (LR),25%,13409,10891,262,988,56.35%,79.04%,55.18%,0.083,0.151
+stroke,Logistic Regression (LR),30%,13018,11282,368,882,54.40%,70.56%,53.57%,0.072,0.131
+stroke,Logistic Regression (LR),35%,13286,11014,424,826,55.23%,66.08%,54.67%,0.070,0.126
+stroke,Logistic Regression (LR),40%,12583,11717,540,710,52.03%,56.80%,51.78%,0.057,0.104
+stroke,Decision Tree (DT),0%,23271,1029,1094,156,91.69%,12.48%,95.77%,0.132,0.128
+stroke,Decision Tree (DT),5%,22148,2152,1059,191,87.43%,15.28%,91.14%,0.082,0.106
+stroke,Decision Tree (DT),10%,21082,3218,978,272,83.58%,21.76%,86.76%,0.078,0.115
+stroke,Decision Tree (DT),15%,19945,4355,948,302,79.24%,24.16%,82.08%,0.065,0.102
+stroke,Decision Tree (DT),20%,18697,5603,881,369,74.62%,29.52%,76.94%,0.062,0.102
+stroke,Decision Tree (DT),25%,17562,6738,837,413,70.35%,33.04%,72.27%,0.058,0.098
+stroke,Decision Tree (DT),30%,16433,7867,790,460,66.12%,36.80%,67.63%,0.055,0.096
+stroke,Decision Tree (DT),35%,15303,8997,735,515,61.91%,41.20%,62.98%,0.054,0.096
+stroke,Decision Tree (DT),40%,14161,10139,708,542,57.55%,43.36%,58.28%,0.051,0.091
+stroke,Random Forest (RF),0%,24050,250,1217,33,94.26%,2.64%,98.97%,0.117,0.043
+stroke,Random Forest (RF),5%,23813,487,1180,70,93.48%,5.60%,98.00%,0.126,0.077
+stroke,Random Forest (RF),10%,23312,988,1138,112,91.68%,8.96%,95.93%,0.102,0.095
+stroke,Random Forest (RF),15%,22631,1669,1096,154,89.18%,12.32%,93.13%,0.084,0.100
+stroke,Random Forest (RF),20%,21704,2596,1035,215,85.79%,17.20%,89.32%,0.077,0.106
+stroke,Random Forest (RF),25%,20562,3738,970,280,81.57%,22.40%,84.62%,0.070,0.106
+stroke,Random Forest (RF),30%,19205,5095,914,336,76.48%,26.88%,79.03%,0.062,0.101
+stroke,Random Forest (RF),35%,17710,6590,841,409,70.92%,32.72%,72.88%,0.058,0.099
+stroke,Random Forest (RF),40%,16037,8263,774,476,64.63%,38.08%,66.00%,0.054,0.095
+stroke,Naive Bayes (NB),0%,5625,18675,9,1241,26.87%,99.28%,23.15%,0.062,0.117
+stroke,Naive Bayes (NB),5%,6628,17672,105,1145,30.42%,91.60%,27.28%,0.061,0.114
+stroke,Naive Bayes (NB),10%,5560,18740,77,1173,26.35%,93.84%,22.88%,0.059,0.111
+stroke,Naive Bayes (NB),15%,11842,12458,237,1013,50.31%,81.04%,48.73%,0.075,0.137
+stroke,Naive Bayes (NB),20%,14312,9988,298,952,59.74%,76.16%,58.90%,0.087,0.155
+stroke,Naive Bayes (NB),25%,11796,12504,269,981,50.01%,78.48%,48.54%,0.073,0.133
+stroke,Naive Bayes (NB),30%,11067,13233,301,949,47.03%,75.92%,45.54%,0.067,0.123
+stroke,Naive Bayes (NB),35%,12679,11621,399,851,52.95%,68.08%,52.18%,0.068,0.124
+stroke,Naive Bayes (NB),40%,10589,13711,386,864,44.83%,69.12%,43.58%,0.059,0.109
+stroke,K-Nearest Neighbors (KNN),0%,21592,2708,928,322,85.77%,25.76%,88.86%,0.106,0.150
+stroke,K-Nearest Neighbors (KNN),5%,18632,5668,804,446,74.67%,35.68%,76.67%,0.073,0.121
+stroke,K-Nearest Neighbors (KNN),10%,16090,8210,688,562,65.17%,44.96%,66.21%,0.064,0.112
+stroke,K-Nearest Neighbors (KNN),15%,14468,9832,626,624,59.07%,49.92%,59.54%,0.060,0.107
+stroke,K-Nearest Neighbors (KNN),20%,13805,10495,617,633,56.51%,50.64%,56.81%,0.057,0.102
+stroke,K-Nearest Neighbors (KNN),25%,13397,10903,612,638,54.93%,51.04%,55.13%,0.055,0.100
+stroke,K-Nearest Neighbors (KNN),30%,13252,11048,608,642,54.38%,51.36%,54.53%,0.055,0.099
+stroke,K-Nearest Neighbors (KNN),35%,12898,11402,638,612,52.88%,48.96%,53.08%,0.051,0.092
+stroke,K-Nearest Neighbors (KNN),40%,12686,11614,618,632,52.13%,50.56%,52.21%,0.052,0.094
+stroke,Support Vector Machine (SVM),0%,19309,4991,541,709,78.35%,56.72%,79.46%,0.124,0.204
+stroke,Support Vector Machine (SVM),5%,17945,6355,501,749,73.17%,59.92%,73.85%,0.105,0.179
+stroke,Support Vector Machine (SVM),10%,16698,7602,459,791,68.45%,63.28%,68.72%,0.094,0.164
+stroke,Support Vector Machine (SVM),15%,15785,8515,483,767,64.78%,61.36%,64.96%,0.083,0.146
+stroke,Support Vector Machine (SVM),20%,15061,9239,459,791,62.04%,63.28%,61.98%,0.079,0.140
+stroke,Support Vector Machine (SVM),25%,14375,9925,523,727,59.11%,58.16%,59.16%,0.068,0.122
+stroke,Support Vector Machine (SVM),30%,14280,10020,549,701,58.63%,56.08%,58.77%,0.065,0.117
+stroke,Support Vector Machine (SVM),35%,13455,10845,552,698,55.39%,55.84%,55.37%,0.060,0.109
+stroke,Support Vector Machine (SVM),40%,13062,11238,589,661,53.71%,52.88%,53.75%,0.055,0.100
+Heart Disease Dataset,Support Vector Machine (SVM),0%,685,115,163,527,0.813,0.764,0.856,0.821,0.791
+Heart Disease Dataset,Support Vector Machine (SVM),5%,681,119,172,518,0.805,0.751,0.851,0.813,0.781
+Heart Disease Dataset,Support Vector Machine (SVM),10%,673,127,182,508,0.793,0.736,0.841,0.800,0.767
+Heart Disease Dataset,Support Vector Machine (SVM),15%,673,127,190,500,0.787,0.725,0.841,0.797,0.759
+Heart Disease Dataset,Support Vector Machine (SVM),20%,659,141,186,504,0.781,0.730,0.824,0.781,0.755
+Heart Disease Dataset,Support Vector Machine (SVM),25%,642,158,193,497,0.764,0.720,0.802,0.759,0.739
+Heart Disease Dataset,Support Vector Machine (SVM),30%,627,173,206,484,0.746,0.701,0.784,0.737,0.719
+Heart Disease Dataset,Support Vector Machine (SVM),35%,596,204,229,461,0.709,0.668,0.745,0.693,0.680
+Heart Disease Dataset,Support Vector Machine (SVM),40%,532,268,235,455,0.662,0.659,0.665,0.629,0.644
+Heart Disease Dataset,Logistic Regression (LR),0%,685,115,154,536,0.819,0.777,0.856,0.823,0.799
+Heart Disease Dataset,Logistic Regression (LR),5%,672,128,171,519,0.799,0.752,0.840,0.802,0.776
+Heart Disease Dataset,Logistic Regression (LR),10%,658,142,170,520,0.791,0.754,0.823,0.785,0.769
+Heart Disease Dataset,Logistic Regression (LR),15%,642,158,189,501,0.767,0.726,0.802,0.760,0.743
+Heart Disease Dataset,Logistic Regression (LR),20%,640,160,192,498,0.764,0.722,0.800,0.757,0.739
+Heart Disease Dataset,Logistic Regression (LR),25%,598,202,202,488,0.729,0.707,0.748,0.707,0.707
+Heart Disease Dataset,Logistic Regression (LR),30%,578,222,214,476,0.707,0.690,0.723,0.682,0.686
+Heart Disease Dataset,Logistic Regression (LR),35%,543,257,226,464,0.676,0.672,0.679,0.644,0.658
+Heart Disease Dataset,Logistic Regression (LR),40%,494,306,240,450,0.634,0.652,0.618,0.595,0.622
+Heart Disease Dataset,K-Nearest Neighbors (KNN),0%,695,105,201,489,0.795,0.709,0.869,0.823,0.762
+Heart Disease Dataset,K-Nearest Neighbors (KNN),5%,686,114,202,488,0.788,0.707,0.858,0.811,0.755
+Heart Disease Dataset,K-Nearest Neighbors (KNN),10%,672,128,192,498,0.785,0.722,0.840,0.796,0.757
+Heart Disease Dataset,K-Nearest Neighbors (KNN),15%,656,144,212,478,0.761,0.693,0.820,0.768,0.729
+Heart Disease Dataset,K-Nearest Neighbors (KNN),20%,647,153,225,465,0.746,0.674,0.809,0.752,0.711
+Heart Disease Dataset,K-Nearest Neighbors (KNN),25%,594,206,230,460,0.707,0.667,0.743,0.691,0.678
+Heart Disease Dataset,K-Nearest Neighbors (KNN),30%,567,233,235,455,0.686,0.659,0.709,0.661,0.660
+Heart Disease Dataset,K-Nearest Neighbors (KNN),35%,535,265,252,438,0.653,0.635,0.669,0.623,0.629
+Heart Disease Dataset,K-Nearest Neighbors (KNN),40%,494,306,272,418,0.612,0.606,0.618,0.577,0.591
+Heart Disease Dataset,Decision Tree (DT),0%,592,208,220,470,0.713,0.681,0.740,0.693,0.687
+Heart Disease Dataset,Decision Tree (DT),5%,564,236,224,466,0.691,0.675,0.705,0.664,0.670
+Heart Disease Dataset,Decision Tree (DT),10%,546,254,218,472,0.683,0.684,0.682,0.650,0.667
+Heart Disease Dataset,Decision Tree (DT),15%,513,287,255,435,0.636,0.630,0.641,0.602,0.616
+Heart Disease Dataset,Decision Tree (DT),20%,529,271,281,409,0.630,0.593,0.661,0.601,0.597
+Heart Disease Dataset,Decision Tree (DT),25%,507,293,284,406,0.613,0.588,0.634,0.581,0.585
+Heart Disease Dataset,Decision Tree (DT),30%,461,339,281,409,0.584,0.593,0.576,0.547,0.569
+Heart Disease Dataset,Decision Tree (DT),35%,455,345,297,393,0.569,0.570,0.569,0.533,0.550
+Heart Disease Dataset,Decision Tree (DT),40%,442,358,330,360,0.538,0.522,0.552,0.501,0.511
+Heart Disease Dataset,Naive Bayes (NB),0%,633,167,281,409,0.699,0.593,0.791,0.710,0.646
+Heart Disease Dataset,Naive Bayes (NB),5%,631,169,322,368,0.670,0.533,0.789,0.685,0.600
+Heart Disease Dataset,Naive Bayes (NB),10%,483,317,276,414,0.602,0.600,0.604,0.566,0.583
+Heart Disease Dataset,Naive Bayes (NB),15%,467,333,287,403,0.584,0.584,0.584,0.548,0.565
+Heart Disease Dataset,Naive Bayes (NB),20%,448,352,254,436,0.593,0.632,0.560,0.553,0.590
+Heart Disease Dataset,Naive Bayes (NB),25%,439,361,261,429,0.583,0.622,0.549,0.543,0.580
+Heart Disease Dataset,Naive Bayes (NB),30%,440,360,270,420,0.577,0.609,0.550,0.538,0.571
+Heart Disease Dataset,Naive Bayes (NB),35%,410,390,227,463,0.586,0.671,0.512,0.543,0.600
+Heart Disease Dataset,Naive Bayes (NB),40%,383,417,237,453,0.561,0.657,0.479,0.521,0.581
+Heart Disease Dataset,Random Forest (RF),0%,680,120,194,496,0.789,0.719,0.850,0.805,0.760
+Heart Disease Dataset,Random Forest (RF),5%,678,122,186,504,0.793,0.730,0.848,0.805,0.766
+Heart Disease Dataset,Random Forest (RF),10%,656,144,176,514,0.785,0.745,0.820,0.781,0.763
+Heart Disease Dataset,Random Forest (RF),15%,661,139,200,490,0.772,0.710,0.826,0.779,0.743
+Heart Disease Dataset,Random Forest (RF),20%,635,165,193,497,0.760,0.720,0.794,0.751,0.735
+Heart Disease Dataset,Random Forest (RF),25%,597,203,209,481,0.723,0.697,0.746,0.703,0.700
+Heart Disease Dataset,Random Forest (RF),30%,566,234,228,462,0.690,0.670,0.708,0.664,0.667
+Heart Disease Dataset,Random Forest (RF),35%,530,270,245,445,0.654,0.645,0.662,0.622,0.633
+Heart Disease Dataset,Random Forest (RF),40%,498,302,265,425,0.619,0.616,0.623,0.585,0.600
+diabetes dataset,Logistic Regression (LR),0%,2169,331,553,787,0.771,0.587,0.868,0.703,0.639
+diabetes dataset,Logistic Regression (LR),5%,2154,346,540,800,0.769,0.597,0.862,0.697,0.642
+diabetes dataset,Logistic Regression (LR),10%,2136,364,551,789,0.762,0.588,0.854,0.685,0.632
+diabetes dataset,Logistic Regression (LR),15%,2166,334,565,775,0.765,0.578,0.866,0.699,0.632
+diabetes dataset,Logistic Regression (LR),20%,2159,341,575,765,0.762,0.570,0.864,0.692,0.625
+diabetes dataset,Logistic Regression (LR),25%,2136,364,571,769,0.757,0.573,0.854,0.679,0.622
+diabetes dataset,Logistic Regression (LR),30%,2116,384,590,750,0.745,0.560,0.846,0.661,0.604
+diabetes dataset,Logistic Regression (LR),35%,2086,414,603,737,0.735,0.549,0.834,0.640,0.591
+diabetes dataset,Logistic Regression (LR),40%,1987,513,639,701,0.700,0.523,0.795,0.577,0.549
+diabetes dataset,Decision Tree (DT),0%,1883,617,545,795,0.698,0.593,0.753,0.563,0.576
+diabetes dataset,Decision Tree (DT),5%,1828,672,558,782,0.680,0.584,0.731,0.538,0.560
+diabetes dataset,Decision Tree (DT),10%,1682,818,592,748,0.633,0.558,0.673,0.478,0.514
+diabetes dataset,Decision Tree (DT),15%,1706,794,587,753,0.640,0.561,0.682,0.487,0.522
+diabetes dataset,Decision Tree (DT),20%,1577,923,627,713,0.596,0.531,0.631,0.436,0.479
+diabetes dataset,Decision Tree (DT),25%,1526,974,576,764,0.596,0.569,0.610,0.439,0.495
+diabetes dataset,Decision Tree (DT),30%,1495,1005,650,690,0.569,0.515,0.598,0.407,0.455
+diabetes dataset,Decision Tree (DT),35%,1460,1040,673,667,0.554,0.497,0.584,0.391,0.438
+diabetes dataset,Decision Tree (DT),40%,1360,1140,640,700,0.537,0.522,0.544,0.380,0.440
+diabetes dataset,Random Forest (RF),0%,2100,400,532,808,0.757,0.603,0.840,0.669,0.634
+diabetes dataset,Random Forest (RF),5%,2092,408,537,803,0.755,0.599,0.837,0.663,0.628
+diabetes dataset,Random Forest (RF),10%,2066,434,526,814,0.750,0.608,0.826,0.653,0.628
+diabetes dataset,Random Forest (RF),15%,2080,420,583,757,0.738,0.564,0.832,0.643,0.600
+diabetes dataset,Random Forest (RF),20%,2014,486,578,762,0.723,0.569,0.806,0.611,0.588
+diabetes dataset,Random Forest (RF),25%,1965,535,587,753,0.707,0.561,0.786,0.584,0.571
+diabetes dataset,Random Forest (RF),30%,1861,639,577,763,0.683,0.569,0.744,0.544,0.555
+diabetes dataset,Random Forest (RF),35%,1790,710,623,717,0.653,0.536,0.716,0.502,0.518
+diabetes dataset,Random Forest (RF),40%,1636,864,674,666,0.600,0.497,0.654,0.435,0.464
+diabetes dataset,Naive Bayes (NB),0%,2072,428,536,804,0.748,0.600,0.829,0.653,0.625
+diabetes dataset,Naive Bayes (NB),5%,2060,440,521,819,0.749,0.612,0.824,0.651,0.631
+diabetes dataset,Naive Bayes (NB),10%,2049,451,527,813,0.745,0.606,0.820,0.643,0.623
+diabetes dataset,Naive Bayes (NB),15%,2061,439,549,791,0.743,0.590,0.824,0.643,0.615
+diabetes dataset,Naive Bayes (NB),20%,2076,424,561,779,0.743,0.581,0.830,0.647,0.612
+diabetes dataset,Naive Bayes (NB),25%,2071,429,568,772,0.740,0.575,0.828,0.643,0.605
+diabetes dataset,Naive Bayes (NB),30%,2089,411,574,766,0.743,0.572,0.836,0.650,0.608
+diabetes dataset,Naive Bayes (NB),35%,2049,451,589,751,0.729,0.560,0.820,0.624,0.590
+diabetes dataset,Naive Bayes (NB),40%,1953,547,639,701,0.691,0.522,0.781,0.562,0.540
+diabetes dataset,K-Nearest Neighbors (KNN),0%,2012,488,560,780,0.727,0.582,0.805,0.615,0.599
+diabetes dataset,K-Nearest Neighbors (KNN),5%,1984,516,558,782,0.720,0.584,0.794,0.602,0.593
+diabetes dataset,K-Nearest Neighbors (KNN),10%,1947,553,571,769,0.707,0.573,0.779,0.582,0.577
+diabetes dataset,K-Nearest Neighbors (KNN),15%,1899,601,613,727,0.685,0.543,0.760,0.548,0.546
+diabetes dataset,K-Nearest Neighbors (KNN),20%,1838,662,606,734,0.670,0.548,0.735,0.525,0.536
+diabetes dataset,K-Nearest Neighbors (KNN),25%,1762,738,612,728,0.648,0.543,0.705,0.497,0.519
+diabetes dataset,K-Nearest Neighbors (KNN),30%,1668,832,637,703,0.617,0.525,0.667,0.458,0.489
+diabetes dataset,K-Nearest Neighbors (KNN),35%,1595,905,644,696,0.596,0.519,0.638,0.435,0.474
+diabetes dataset,K-Nearest Neighbors (KNN),40%,1503,997,667,673,0.567,0.502,0.601,0.403,0.447
+diabetes dataset,Support Vector Machine (SVM),0%,2167,333,589,751,0.760,0.560,0.867,0.693,0.620
+diabetes dataset,Support Vector Machine (SVM),5%,2164,336,595,745,0.757,0.556,0.866,0.689,0.615
+diabetes dataset,Support Vector Machine (SVM),10%,2161,339,603,737,0.755,0.549,0.864,0.685,0.609
+diabetes dataset,Support Vector Machine (SVM),15%,2168,332,649,691,0.745,0.516,0.867,0.676,0.585
+diabetes dataset,Support Vector Machine (SVM),20%,2168,332,627,713,0.750,0.531,0.867,0.682,0.597
+diabetes dataset,Support Vector Machine (SVM),25%,2146,354,633,707,0.742,0.528,0.858,0.667,0.589
+diabetes dataset,Support Vector Machine (SVM),30%,2115,385,632,708,0.734,0.528,0.846,0.647,0.582
+diabetes dataset,Support Vector Machine (SVM),35%,2067,433,668,672,0.714,0.502,0.827,0.609,0.549
+diabetes dataset,Support Vector Machine (SVM),40%,1962,538,719,621,0.673,0.463,0.785,0.535,0.496
